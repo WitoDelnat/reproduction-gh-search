@@ -1,0 +1,21 @@
+{
+  "name": "debug-gh-search",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "authenticate": "tsx authenticate.mts",
+    "start": "tsx main.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/auth-app": "4.0.9",
+    "octokit": "2.0.14"
+  },
+  "devDependencies": {
+    "tsx": "3.12.6"
+  }
+}
